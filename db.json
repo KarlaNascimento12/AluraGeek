@@ -1,0 +1,39 @@
+{
+    "produtos": [
+      {
+        "nome": "funko Hermione",
+        "preco": "R$130.00",
+        "imagem": "/imagens/imagem1.svg.png",
+        "id": "1"
+      },
+      
+      {
+        "nome": "Funko Hagrid",
+        "preco": "R$60.00",
+        "imagem": "/imagens/imagem2.svg.png",
+        "id": "2"
+      },
+
+      {
+        "nome": "Boneco Harry Potter",
+        "preco": "R$150.00",
+        "imagem": "/imagens/imagem3.svg.png",
+        "id": "3"
+      },
+
+    {
+            "nome": "Funko  Dobby",
+            "preco": "R$120.00",
+            "imagem": "/imagens/imagem4.svg.png",
+            "id": "4"
+          
+    },
+
+    {
+        "nome": "Funko Weasley",
+        "preco": "R$130.00",
+        "imagem":"/imagens/imagem5.svg.png",
+        "id": "5"
+    }
+        ]
+        }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <p class="titulo">AluraGeek</p>
+    </header>
+
+    <main>
+        <section class="scrollable-section" data-lista>
+            <h1>Meus Produtos</h1>
+            <p class="aviso">Nenhum produto adicionado!</p>
+           <div class="img">
+            <img src="imagens/imagem1.svg.png" alt="">
+            <img src="imagens/imagem2.svg.png" alt="">
+        </div>
+            <div class="img2">
+                <img src="imagens/imagem3.svg.png" alt="">
+                <img src="imagens/imagem4.svg.png" alt="">
+            </div>
+           <img src="imagens/imagem5.svg.png" alt="">
+            <div class="container" data-lista></div>
+        </section>
+
+        <section class="form--section">
+            <h1>Adicionar Produto</h1>
+            <form class="formulario" data-formulario>
+                <input type="text" name="Nome" id="Nome" placeholder="Nome" required data-nome>
+                <input type="number" name="Valor" id="Valor" placeholder="Valor" required data-valor>
+                <input type="text" name="Imagem" id="Imagem" placeholder="URL da Imagem" required data-imagem>
+                <button type="submit">Guardar</button>
+                <button type="button" data-limpar>Limpar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <h1>AluraGeek</h1>
+        </div>
+        <p>Desenvolvido Por Karla Nascimento</p>
+    
+    </footer>
+
+    <script src="/js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/requisicoes.js"></script>
+</body>
+</html>
